@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-12-08T13:15:53.765Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 OPR/92.0.0.0 (Edition std-1)" etag="NI7Z6m0FCA84OPYdildh" version="20.6.1" type="github"><diagram id="vA3-KsZhnf8I-pI694Q6" name="Page-1">ddHBDoMgDADQr+GOYIx357bLTh52JtIJCVqDGN2+fhpwjrhdCLy2lBTCi3a+WNGrG0owhFE5E34ijOVZsqwrPD2kOfPQWC09JTtU+gUBadBRSxiiRIdonO5jrLHroHaRCWtxitMeaOKuvWjgAFUtzFHvWjrllXNK98AVdKNC6zTLQ0krtuyQOighcfoiXhJeWETnd+1cgFmHtw3G153/RD8vs9C5HwXLZr97OUQ/xMs3</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-08T14:15:29.721Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 OPR/92.0.0.0 (Edition std-1)" etag="vLoZVGiSR3kDBHsyBRcu" version="20.6.1" type="github">
+  <diagram id="vA3-KsZhnf8I-pI694Q6" name="Page-1">
+    <mxGraphModel dx="1056" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="il68oPd4SAC4kzOnEwiC-1" value="Init components" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="il68oPd4SAC4kzOnEwiC-2" value="Waypoint_message_came == True?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="955" y="490" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="il68oPd4SAC4kzOnEwiC-3" value="Generate path" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="il68oPd4SAC4kzOnEwiC-4" value="Request current position and heading" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="il68oPd4SAC4kzOnEwiC-5" value="Calculate control angle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="540" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="il68oPd4SAC4kzOnEwiC-6" value="Send control message to STM32" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="il68oPd4SAC4kzOnEwiC-7" value="Send current position and heading to UI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="il68oPd4SAC4kzOnEwiC-9" value="Pause == True?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="700" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="il68oPd4SAC4kzOnEwiC-10" value="Cart_index &amp;gt; waypoint_index[i]" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="790" width="210" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
