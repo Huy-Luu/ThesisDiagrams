@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-22T15:39:14.928Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0 (Edition std-1)" etag="rOlpp_rJr0HKaudTL7pS" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-25T04:02:42.736Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 OPR/93.0.0.0 (Edition std-1)" etag="N8mEKEv9VAlw2oV3w4qw" version="20.7.4" type="github">
   <diagram id="vA3-KsZhnf8I-pI694Q6" name="Page-1">
-    <mxGraphModel dx="1682" dy="917" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1441" dy="786" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -39,7 +39,7 @@
         <mxCell id="il68oPd4SAC4kzOnEwiC-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="il68oPd4SAC4kzOnEwiC-5" target="il68oPd4SAC4kzOnEwiC-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="il68oPd4SAC4kzOnEwiC-5" value="Calculate control angle" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="il68oPd4SAC4kzOnEwiC-5" value="Calculate control angle&lt;br&gt;Conversion using UTM&lt;br&gt;Calculate lateral error" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1290" y="540" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="il68oPd4SAC4kzOnEwiC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="il68oPd4SAC4kzOnEwiC-6" target="il68oPd4SAC4kzOnEwiC-9" edge="1">
@@ -123,7 +123,7 @@
         <mxCell id="il68oPd4SAC4kzOnEwiC-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="il68oPd4SAC4kzOnEwiC-40" target="il68oPd4SAC4kzOnEwiC-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="il68oPd4SAC4kzOnEwiC-40" value="Send run command&lt;br&gt;Send status to UI" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="il68oPd4SAC4kzOnEwiC-40" value="Send run command" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1310" y="820" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="il68oPd4SAC4kzOnEwiC-44" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
